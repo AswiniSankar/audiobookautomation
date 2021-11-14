@@ -1,7 +1,7 @@
 import pyttsx3 
 import PyPDF2
 
-book = open('/home/aswini/Projects/Python/oscarstory.pdf', 'rb') #pdf to read
+book = open('oscarstory.pdf', 'rb') #pdf to read
 pdfReader = PyPDF2.PdfFileReader(book)
 pages = pdfReader.numPages #get the page count of pdf
 #print(pages)
